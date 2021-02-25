@@ -1,0 +1,47 @@
+textarea {
+    min-height: 400px;
+}
+
+.bannertitle{
+    color: beige;
+    text-shadow: 2px 2px 8px black;
+}
+
+.mailboxtitle{
+    color: white;
+    font-style: italic;
+}
+
+.inboxdivRead, .inboxdivUnread {
+    border: 2px solid red;
+    padding: 5px;
+    max-height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    cursor: pointer;  
+}
+
+.inboxdivRead {
+    background-color: gray;
+    color:antiquewhite;
+}
+
+.inboxdivUnread{
+    background-color: antiquewhite;
+}
+
+.viewEmaildiv{
+    border: 1px solid black;
+    padding: 5px;
+    background-color: Azure;
+}
+
+.buttonsdiv{
+    margin: auto;
+    text-align: center;
+}
+
+body {
+    background-image: linear-gradient( to right, LightSeaGreen, CornflowerBlue);
+}
